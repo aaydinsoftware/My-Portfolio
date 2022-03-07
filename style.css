@@ -240,7 +240,8 @@
 .testimonial{
     background-color: skyblue;
     width: 1440px;
-    height: 50px;  
+    height: 896px; 
+    display: flex;
     
 }
 
@@ -251,8 +252,18 @@
     width: 445px;
     height: 168px;
     margin-left: 260px;
-    margin-top: 120px;     
+    margin-top: 120px;
+    
+  
+  
+       
 }
+.bigdesc{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+}
+
 
 .bigtext{
     width: 445px;
@@ -264,25 +275,31 @@
    
 }
 
+.smalldesc{
+    font-size: 18px;
+    line-height: 32px;
+    font-size: 18px;
+}
+
 .smalltext{
     width: 445px;
     height: 32px;
-    font-size: 18px;
-    line-height: 32px;
-    margin: 80px;
+  
+    
+   
 }
 
 
 .testimonial3{
-    position:absolute;
-
-    background-color: blue;
+    
+    background: #FFFFFF;
     width: 350px;
     height: 468px;
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
     border-radius: 8px;
     margin-left: 355px;
     margin-top: 312px;
+    
 }
 
 .content3{
@@ -290,20 +307,24 @@
 }
 
 .logo3{
-
+    position: relative;
+    margin-left: 32px;
+    margin-top: 32px;
 }
 
 
 .testimonial2{
-    position:absolute;
+    background: #FFFFFF;
+    position: absolute;
 
-    background-color: red;
     width: 350px;
     height: 276px;
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
     border-radius: 8px;
     margin-left: 735px;
     margin-top: 540px;
+   
+    
 
 }
 .content2{
@@ -316,15 +337,16 @@
 
 
 .testimonial1{
-    position:absolute;
+    background: #FFFFFF;
+    position: absolute;
 
-    background-color: yellow;
     width: 445px;
     height: 340px;
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
     border-radius: 8px;
     margin-left: 735px;
     margin-top: 168px;
+   
     }
 
 .content1{
