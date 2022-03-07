@@ -218,9 +218,7 @@
     height: 110px;
 
 }
-.logoClouds{
 
-}
 
 .logos{
     display: flex;
@@ -236,3 +234,104 @@
     height: 1px;
     background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
 }   
+
+/*Testiminoal*/
+
+.testimonial{
+    background-color: skyblue;
+    width: 1440px;
+    height: 50px;  
+    
+}
+
+
+.sectionHeading{
+    position:absolute;
+    background-color: sandybrown;
+    width: 445px;
+    height: 168px;
+    margin-left: 260px;
+    margin-top: 120px;     
+}
+
+.bigtext{
+    width: 445px;
+    height: 128px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+   
+}
+
+.smalltext{
+    width: 445px;
+    height: 32px;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 80px;
+}
+
+
+.testimonial3{
+    position:absolute;
+
+    background-color: blue;
+    width: 350px;
+    height: 468px;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    margin-left: 355px;
+    margin-top: 312px;
+}
+
+.content3{
+
+}
+
+.logo3{
+
+}
+
+
+.testimonial2{
+    position:absolute;
+
+    background-color: red;
+    width: 350px;
+    height: 276px;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    margin-left: 735px;
+    margin-top: 540px;
+
+}
+.content2{
+
+}
+
+.logo2{
+
+}
+
+
+.testimonial1{
+    position:absolute;
+
+    background-color: yellow;
+    width: 445px;
+    height: 340px;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+    margin-left: 735px;
+    margin-top: 168px;
+    }
+
+.content1{
+
+}
+
+.logo1{
+
+}
+
