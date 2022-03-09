@@ -243,6 +243,7 @@
     height: 896px; 
     display: flex;
     
+    
 }
 
 .bigmark{
@@ -271,10 +272,9 @@
 .bigtext{
     width: 445px;
     height: 128px;
-    font-weight: 800;
-    font-size: 48px;
-    line-height: 64px;
+    font-feature-settings: 'salt' on, 'liga' off;
     color: #18191F;
+
    
 }
 
@@ -292,6 +292,8 @@
    
 }
 
+/*Testimonial3*/
+
 
 .testimonial3{
     
@@ -300,20 +302,65 @@
     height: 468px;
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
     border-radius: 8px;
-    margin-left: px;
     margin-top: 312px;
+    margin-bottom: 150px;
     
 }
 
-.content3{
 
-}
 
 .logo3{
     position: relative;
     margin-left: 32px;
     margin-top: 32px;
 }
+
+.content3{
+    width: 286px;
+    height: 332px;
+    margin: 32px;
+}
+
+.feedback1{
+
+}
+
+.feedback2{
+    margin-left: 24px;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    }
+
+    
+
+.persoDetails{
+    margin-left: 30px;
+    margin-top: 70px;
+
+}
+
+.sub1{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+
+}
+
+.sub2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #969BAB;
+}
+
+/*Testimonial2*/
 
 
 .testimonial2{
@@ -325,18 +372,27 @@
     box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
     border-radius: 8px;
     margin-left: 735px;
-    margin-top: 540px;
+    margin-top: 550px;
    
     
 
 }
 .content2{
-
+    
+    display: flex;
+    width: 286px;
+    height: 140px;
+    margin-top: 32px;
+    margin-left: 32px;
 }
 
 .logo2{
-
+    width: 134px;
+    height: 40px;
+    margin-top:32px ;
+    margin-left: 32px;
 }
+/*Testimonial1*/
 
 
 .testimonial1{
@@ -352,11 +408,214 @@
    
     }
 
-.content1{
-
-}
-
+ 
 .logo1{
+    width: 130px;
+    height: 40px;
+    margin: 32px;
+}
+.content1{
+    display: flex;
+    width: 381px;
+    height: 204px;
+    
+
+}
+.mark1{
+    width: 16px;
+    height: 14px;
+    margin: 0 16px;
+}
+
+.feedback5{
+    width: 349px;
+    height: 204px;
+    margin: 0px 16px;
 
 }
 
+.feedback5-1{
+    display: flex;
+}
+
+.feedback5-1-text{
+    width: 349px;
+    height: 128px;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    margin: 24px 0px;
+}
+
+.feedback5-2{
+  
+}
+
+.perdet1{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.perdet2{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #969BAB;
+
+}
+
+/*Status*/
+
+
+.stats6{
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px 165px;
+    width: 1440px;
+    height: 332px;
+    background: #FFFFFF;
+    
+}
+
+.sectionHeading6{
+    width: 540px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 30px;
+}
+
+
+.sectionHeading6-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 540px;
+    height: 128px;
+    margin: 8px 0px;
+}
+
+.sectionHeading6-1-h2{
+
+position: static;
+width: 540px;
+height: 128px;
+left: 0px;
+top: 0px;
+
+/* Heading / H2 */
+
+font-family: Inter;
+font-weight: 800;
+font-size: 48px;
+line-height: 64px;
+font-feature-settings: 'salt' on, 'liga' off;
+color: #18191F;
+
+}
+
+.desc6{
+
+    width: 540px;
+    height: 32px;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    margin: 8px 0px;
+}
+
+.counts{
+    width: 540px;
+    height: 172px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 540px;
+    height: 172px;
+    margin: 0px 30px;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 540px;
+    height: 66px;
+    margin: 10px 0px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 540px;
+    height: 66px;
+    margin: 10px 0px;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0px 0px;
+}
+
+.two{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0px 0px;
+}
+
+.icon6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    width: 48px;
+    height: 48px;
+    margin: 0px 16px;
+}
+
+.details6{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 191px;
+    height: 66px;
+    margin: 0px 0px;
+}
+
+.number{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+
+}
+
+.label6{
+
+
+    font-family: Inter;
+
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+
+}
